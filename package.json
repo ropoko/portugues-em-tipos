@@ -1,0 +1,28 @@
+{
+  "name": "portugues-em-tipos",
+  "version": "0.0.1",
+  "description": "this is an attempt to build a type-level definition for the portuguese language",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ropoko/portugues-em-tipos.git"
+  },
+  "keywords": [
+    "portuguese",
+    "language",
+    "types",
+    "typescript"
+  ],
+  "author": "ropoko",
+  "license": "MIT",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/ropoko/portugues-em-tipos/issues"
+  },
+  "homepage": "https://github.com/ropoko/portugues-em-tipos#readme",
+  "dependencies": {
+    "typescript": "^6.0.3"
+  }
+}
