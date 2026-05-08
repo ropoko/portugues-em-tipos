@@ -1,22 +1,7 @@
-import { CheckGrammar } from "./helper";
+import type { Frase } from "./gramatica"
 
-type A = CheckGrammar<"qual é a mesa">; // true
-// -> informação (é)
+const teste1: Frase<"masculino", "plural", "presente", "3"> = 'os gatos correm';
 
-type B = CheckGrammar<"eu quero reservar">; // true
-// -> pedido (quero)
+const teste2: Frase<"masculino", "singular", "presente", "3"> = 'o gato corre';
 
-type C = CheckGrammar<"eu quero reservar uma mesa">; // true
-// -> pedido (quero)
-
-type D = CheckGrammar<"quero pedir um lanche"> // true
-// -> pedido (quero)
-
-type E = CheckGrammar<"eu reservo">; // true
-//
-
-type F = CheckGrammar<"x reserva">; // false
-// -> não faz parte da gramática
-
-type G = CheckGrammar<"quem é voce">; // true
-// -> informação (é)
+const teste3: Frase<"masculino", "singular", "presente", "3"> = 'o gato bonito';
